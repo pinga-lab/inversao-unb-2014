@@ -1,9 +1,14 @@
 # Tópicos de Inversão em Geofísica
 
-Leonardo Uieda
+---
 
-[leouieda.com](http://leouieda.com)
+## Professor: Leonardo Uieda
 
-![Pinga logo](img/pinga.png)
-![Fatiando logo](img/fatiando.png)
+<i class="fa fa-home"></i> [leouieda.com](http://leouieda.com)
+
+![Pinga LAB](img/pinga.png)
+![Observatório Nacional](img/ON.png)
+![UERJ](img/UERJ.png)
+
+# Outro slide
 

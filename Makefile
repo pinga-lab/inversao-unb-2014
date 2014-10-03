@@ -1,7 +1,8 @@
 REVEALOPT = --standalone --slide-level 1 --mathjax --css custom.css -H header.html
-SLIDES := introducao.html
+SLIDES = introducao.html index.html
 
-all : $(SLIDES)
+all : slides
+slides : $(SLIDES)
 
 %.html : %.md custom.css header.html
 	pandoc -t revealjs $< -o $@ $(REVEALOPT)

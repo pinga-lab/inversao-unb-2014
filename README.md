@@ -21,7 +21,8 @@ programação.
 
 **Site com o material do curso**: https://github.com/pinga-lab/inversao-unb-2014
 
-**Apostila**:
+**Apostila**: Baixe o [PDF da apostila](http://dx.doi.org/10.6084/m9.figshare.1192984)
+no figshare.
 A apostila contém a derivação das principais equações envolvidas na inversão.
 Os apêndices explicam as operações básicas com matrizes,
 como derivadas e expansão em série de Taylor.

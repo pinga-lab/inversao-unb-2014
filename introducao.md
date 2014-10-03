@@ -12,3 +12,6 @@
 
 # Outro slide
 
+$$
+\mathbf{p} = (A^TA)^{-1} A^T d
+$$

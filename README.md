@@ -17,7 +17,7 @@ geologia, e afins.
 **Requisitos**: Conhecimentos básicos de álgebra linear, cálculo numérico e
 programação.
 
-**Duração**: meio período (4h) durante 5 dias (03-07/11/2014).
+**Duração**: dia inteiro (8h) durante 2 dias (03-04/11/2014).
 
 **Site com o material do curso**: https://github.com/pinga-lab/inversao-unb-2014
 
@@ -26,6 +26,11 @@ no figshare.
 A apostila contém a derivação das principais equações envolvidas na inversão.
 Os apêndices explicam as operações básicas com matrizes,
 como derivadas e expansão em série de Taylor.
+
+**Slides**: As apresentações foram feitas com
+[pandoc](http://johnmacfarlane.net/pandoc/) e
+[reveal.js](https://github.com/hakimel/reveal.js/)
+e podem ser vistas em http://pinga-lab.github.io/inversao-unb-2014
 
 **Demais informações**:
 As atividades práticas podem ser realizadas no **próprio laptop**,

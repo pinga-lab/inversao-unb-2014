@@ -4,7 +4,10 @@ script:
 before_install:
 install:
     - sudo apt-get update
-    - sudo apt-get install pandoc
+    - sudo apt-get install cabal-install
+    - cabal update
+    - cabal install pandoc
+    - export PATH=~/.cabal/bin:$PATH
 after_success:
     - bash .update-website.sh
 env:

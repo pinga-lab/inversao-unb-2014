@@ -1,14 +1,21 @@
-REVEALOPT = --standalone --slide-level 1 --mathjax --css custom.css -H header.html
+REVEALOPT = --standalone --slide-level 1 --mathjax --css custom.css -H header.html -V transition=none
 SLIDES = introducao.html index.html
 
-all : slides
+all : clean slides
+
 slides : $(SLIDES)
+	mkdir -p output
+	cp $(SLIDES) output
+	cp -Rf reveal.js output; rm -rf output/reveal.js/.git
+	cp -Rf font-awesome output
+	cp -Rf img output
+	cp custom.css output
 
 %.html : %.md custom.css header.html
 	pandoc -t revealjs $< -o $@ $(REVEALOPT)
 
 serve:
-	python -m SimpleHTTPServer 8001
+	cd output; python -m SimpleHTTPServer 8004
 
 clean :
-	rm -rf $(SLIDES)
+	rm -rf $(SLIDES) output/*

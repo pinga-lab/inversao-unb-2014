@@ -10,6 +10,7 @@ slides : $(SLIDES)
 	cp -Rf font-awesome output
 	cp -Rf img output
 	cp custom.css output
+	echo "" > output/.nojekyll
 
 %.html : %.md custom.css header.html
 	pandoc -t revealjs $< -o $@ $(REVEALOPT)
@@ -17,5 +18,9 @@ slides : $(SLIDES)
 serve:
 	cd output; python -m SimpleHTTPServer 8004
 
+.PHONY: deploy
+deploy: all
+	bash push-gh-pages.sh
+
 clean :
-	rm -rf $(SLIDES) output/*
+	rm -rf $(SLIDES) output/* deploy

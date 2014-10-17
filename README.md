@@ -33,7 +33,7 @@ como derivadas e expansão em série de Taylor.
 **Slides**: As apresentações foram feitas com
 [pandoc](http://johnmacfarlane.net/pandoc/) e
 [reveal.js](https://github.com/hakimel/reveal.js/)
-e podem ser vistas em
+e podem ser vistas em:
 [pinga-lab.github.io/inversao-unb-2014](http://pinga-lab.github.io/inversao-unb-2014)
 
 **Demais informações**:

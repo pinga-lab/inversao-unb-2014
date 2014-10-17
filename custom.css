@@ -1,21 +1,20 @@
 @import url(https://www.google.com/fonts#UsePlace:use/Collection:Yanone+Kaffeesatz);
 
 body {
-  background: #111111;
-  background-color: #111111;
+    background: #111111;
+    background-color: #111111;
 }
 
 .reveal {
-  font-family: "Yanone Kaffeesatz", sans;
-  font-size: 50pt;
-  font-weight: normal;
-  color: #eeeeee;
+    font-family: "Yanone Kaffeesatz", sans;
+    font-size: 70pt;
+    font-weight: normal;
+    color: #eeeeee;
 }
 
 .reveal i {
     font-family: 'FontAwesome';
     font-style: normal;
-    font-size: 40pt;
     margin: 10px;
 }
 
@@ -25,32 +24,32 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-    margin: 0 0 20px 0;
-    color: #eeeeee;
-    line-height: 0.9em;
+    margin: 0 0 0 0;
     text-transform: none;
     text-shadow: none;
-    margin-bottom: 80px;
+    color: #008245;
 }
 .reveal h1 {
+    color: #eeeeee;
     font-size: 120pt;
+    line-height: 150%;
 }
 .reveal h2 {
-    font-size: 80pt;
+    font-size: 100pt;
+    margin-bottom: 80px;
 }
 
 /*********************************************
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: #e7ad52;
+  color: #6393b0;
   text-decoration: none;
 }
 
 .reveal a:not(.image):hover {
-  color: #f3d7ac;
-  text-shadow: none;
-  border: none; }
+  text-decoration: underline;
+}
 
 .reveal .roll span:after {
   color: #fff;

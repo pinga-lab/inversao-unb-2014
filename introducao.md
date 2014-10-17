@@ -91,6 +91,8 @@ Inversão?
 
 # {data-background="img/inversao-e-geofisica-3.png" data-background-transition="none"}
 
+# {data-background="img/inversao-e-geofisica-4.png" data-background-transition="none"}
+
 ---
 
 <span style="color:#e72323">medições</span> na superfície
@@ -99,7 +101,7 @@ Inversão?
 
 <span style="color:#00db74">modelo</span> da Terra
 
-<p class="fragment" style="font-size:120pt; text-decoration:underline;">
+<p class="fragment" style="font-size:100pt; text-decoration:underline;">
 Problema inverso
 </p>
 

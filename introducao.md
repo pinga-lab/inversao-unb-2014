@@ -1,4 +1,4 @@
-# Tópicos de Inversão em Geofísica
+# Tópicos de Inversão em Geofísica {data-background="#023b5c"}
 
 ---
 
@@ -145,3 +145,9 @@ exemplos simples
 * Cálculo numérico
 * Programação
 * Boa vontade
+
+---
+
+## Próxima aula:
+
+[Dados, parâmetros e problemas inversos](dados_e_parametros.html)

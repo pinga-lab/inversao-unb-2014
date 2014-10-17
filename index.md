@@ -11,5 +11,6 @@ Informações, ementa, práticas, etc:
 <h2 style="font-size: 40pt">Apresentações</h2>
 
 1. [Introdução](introducao.html)
+2. [Dados, parâmetros e problemas inversos](dados_e_parametros.html)
 
 </div>

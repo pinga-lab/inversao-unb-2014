@@ -32,7 +32,7 @@ body {
 .reveal h1 {
     color: #eeeeee;
     font-size: 120pt;
-    line-height: 150%;
+    line-height: 100%;
 }
 .reveal h2 {
     font-size: 100pt;

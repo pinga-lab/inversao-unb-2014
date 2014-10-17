@@ -1,4 +1,4 @@
-<h2 style="font-size: 40pt">Tópicos de inversão em geofísica</h2>
+<h1 style="font-size: 60pt">Tópicos de inversão em geofísica</h1>
 
 <div class="reveal" style="font-size: 24pt;">
 
@@ -8,7 +8,7 @@ Informações, ementa, práticas, etc:
 
 <div style="margin-bottom: 40px;"></div>
 
-**Apresentações**:
+<h2 style="font-size: 40pt">Apresentações</h2>
 
 1. [Introdução](introducao.html)
 

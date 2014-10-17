@@ -2,7 +2,7 @@
 
 # Dia 1
 
-* [Introdução (o que é um problema inverso)](http://pinga-lab.github.io/inversao-unb-2014/introducao.html)
+* [Introdução](http://pinga-lab.github.io/inversao-unb-2014/introducao.html)
 * Dados e parâmetros
 * Exemplos:
     * Regressão linear

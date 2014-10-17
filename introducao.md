@@ -2,9 +2,11 @@
 
 ---
 
-## Introdução
+## Introdução { margin="0"}
 
 quem eu sou
+
+quem são vocês
 
 qual é nosso objetivo
 
@@ -64,6 +66,15 @@ Grupo de Problemas Inversos em Geofísica
 
 ---
 
-## Objetivos
+## Quem são vocês?
+
+Curso?
+
+Programação?
+(Linguagem?)
+
+Inversão?
+
+---
 
 

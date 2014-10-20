@@ -27,7 +27,7 @@ body {
     margin: 0 0 0 0;
     text-transform: none;
     text-shadow: none;
-    color: #00db74;
+    color: #5aa8d8;
 }
 .reveal h1 {
     color: #eeeeee;
@@ -43,8 +43,8 @@ body {
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: #5aa8d8;
-  text-decoration: none;
+    color: #ffc046;
+    text-decoration: none;
 }
 
 .reveal a:not(.image):hover {

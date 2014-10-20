@@ -148,6 +148,14 @@ exemplos simples
 
 ---
 
+## Material online
+
+<span style="font-size: 50pt">
+[github.com/pinga-lab/inversao-unb-2014](https://github.com/pinga-lab/inversao-unb-2014)
+</span>
+
+---
+
 ## Próxima aula:
 
 [Dados, parâmetros e problemas inversos](dados_e_parametros.html)

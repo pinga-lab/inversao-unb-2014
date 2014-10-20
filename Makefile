@@ -1,4 +1,4 @@
-REVEALOPT = --standalone --slide-level 1 --mathjax --css custom.css -H header.html -V transition=none
+REVEALOPT = --template=template.html --standalone --slide-level 1 --mathjax --css custom.css -H header.html -V transition=none
 SLIDES = index.html introducao.html dados_e_parametros.html
 
 all : clean slides

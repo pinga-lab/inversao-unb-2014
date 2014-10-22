@@ -2,3 +2,4 @@
 *.swp
 output
 deploy
+notebooks/.ipynb_checkpoints/

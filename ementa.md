@@ -3,20 +3,21 @@
 # Dia 1
 
 * [Introdução](http://pinga-lab.github.io/inversao-unb-2014/introducao.html)
-* Dados e parâmetros
-* Exemplos:
-    * Regressão linear
-    * Vertical seismic profiling (VSP)
-    * Tomografia simplificada
-* Modelagem direta
-* O problema direto em forma matricial
+* [Dados, parâmetros e problemas inversos](http://pinga-lab.github.io/inversao-unb-2014/dados_e_parametros.html)
+    * O problema direto em forma matricial
+    * Exemplos:
+       * Regressão linear
+       * Vertical seismic profiling (VSP)
+       * Tomografia simplificada
+    * Modelagem direta
 
 Intervalo (~15min)
 
-* Introdução: práticas, IPython notebooks e [Fatiando a Terra](http://www.fatiando.org)
-* Prática:
-    * Gerar dados a partir de parâmetros
-    * Ajustar manualmente (modelagem direta) os dados fornecidos
+* Práticas, IPython notebooks e [Fatiando a Terra](http://www.fatiando.org)
+* Práticas de modelagem direta: 
+    * VSP com 2 camadas
+    * VSP com várias camadas
+    * tomografia com poucos parâmetros
 
 Almoço
 
@@ -26,10 +27,10 @@ Almoço
 
 Intervalo (~15min)
 
-* Prática:
+* Práticaa de inversão:
     * Calcular a matriz de sensibilidade
     * Resolver o problema inverso para os exemplos vistos
-    * Quando as coisas complicam
+    * Quando as coisas complicam: unicidade e instabilidade
 
 # Dia 2
 

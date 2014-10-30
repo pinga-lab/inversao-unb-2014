@@ -5,56 +5,62 @@
 * [Introdução](http://pinga-lab.github.io/inversao-unb-2014/introducao.html)
 * [Dados, parâmetros e problemas inversos](http://pinga-lab.github.io/inversao-unb-2014/dados_e_parametros.html)
     * O problema direto em forma matricial
+    * Matriz de sensibilidade e dados preditos
+    * Modelagem direta
     * Exemplos:
        * Regressão linear
        * Vertical seismic profiling (VSP)
-       * Tomografia simplificada
-    * Modelagem direta
 
 Intervalo (~15min)
 
-* Práticas, IPython notebooks e [Fatiando a Terra](http://www.fatiando.org)
-* Práticas de modelagem direta: 
+* Sobre as práticas,
+  [IPython notebooks](http://ipython.org/notebook.html) e
+  [Fatiando a Terra](http://www.fatiando.org)
+* Práticas de modelagem direta:
     * VSP com 2 camadas
     * VSP com várias camadas
-    * tomografia com poucos parâmetros
 
-Almoço
+Almoço (~1h)
 
 * Vetor de resíduos e a função do ajuste
-* Problemas lineares e a matriz de sensibilidade
+* Problemas lineares e não lineares
 * O estimador de mínimos quadrados
 
 Intervalo (~15min)
 
-* Práticaa de inversão:
-    * Calcular a matriz de sensibilidade
-    * Resolver o problema inverso para os exemplos vistos
+* Práticas de inversão:
+    * Fazer a inversão para os exemplos VSP com 2 camadas e várias camadas
+    * Calcular as matrizes envolvidas
+    * Calcular a estimativa de mínimos quadrados
     * Quando as coisas complicam: unicidade e instabilidade
 
 # Dia 2
 
-* Revisão
-* Ambiguidades e problemas mal-postos
-* Contornando a instabilidade com a regularização de Tikhonov
+* Revisão do conteúdo abordados no dia anterior
+* Ambiguidade, instabilidade e problemas mal-postos
+* Contornando a instabilidade com informação a priori: regularização
+* O parâmetro de regularização e o balanço entre dados e informação a priori
 
 Intervalo (~15min)
 
+* Práticas de regularização:
+    * Calcular as matrizes envolvidas na regularização Tikhonov de ordem 0 e
+      ordem 1
+    * Aplicar a regularização ao problema VSP várias camadas que ficou
+      mal-posto
+    * Avaliar a influência do parâmetro de regularização na solução obtida
+
+Almoço (~1h)
+
+* Um exemplo de problema inverso "real": Deconvolução de Euler
+
 * Prática:
-    * Aplicar a regularização aos problemas que ficaram mal-postos no dia
-      anterior
-    * Utilizar diferentes tipos de regularização
-
-Almoço
-
-* Encontrando outros problemas: o parâmetro de regularização e o balanço entre
-  os dados e a informação a priori
-* Métodos automáticos para determinar o parâmetro de regularização
-
-* Prática:
-    * Aplicar o método da Curva L para determinar o parâmetro de regularização
+    * Resolver o problema inverso da deconvolução de Euler
+    * Analisar o efeito dos diferentes parâmetros que influenciam a solução
+      e as simplificações feitas
 
 Intervalo (~15min)
 
 * Revisão dos pontos mais importantes
+* Tirar dúvidas
 * Encerramento do curso

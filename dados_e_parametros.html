@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title></title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="reveal.js/css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="custom.css"/>
+  <link rel="stylesheet" media="print" href="reveal.js/css/print/pdf.css" />
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="custom.css">
+    
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({ TeX: { extensions: ["color.js"] }});
+    </script>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="dados-e-parâmetros" class="slide level1" data-background="#023b5c">
+<h1>Dados e parâmetros</h1>
+<div style="margin-top: 40px; font-size:50pt;">
+(formulando um problema inverso)
+</div>
+</section>
+<section class="slide level1">
+
+<p><span style="color:#e72323">Dados</span> = medições</p>
+<p>(ou derivados delas)</p>
+</section>
+<section class="slide level1">
+
+<p><span style="color:#00db74">Parâmetros</span> = &quot;o modelo&quot;</p>
+<p>(o que eu quero determinar)</p>
+</section>
+<section class="slide level1">
+
+<p>Estabelecer uma relação funcional:</p>
+<div style="margin-top:50px">
+
+</div>
+<p>f(<span style="color:#00db74">parâmetros</span>) = <span style="color:#e72323">dados</span></p>
+</section>
+<section id="exemplo-sondagem-sísmica-vertical" class="slide level1" data-background="#023b5c">
+<h1>Exemplo: sondagem sísmica vertical</h1>
+<p>(beeem simplificada)</p>
+</section>
+<section id="section" class="slide level1" data-background="img/vsp-simples-1.png" data-background-transition="none">
+<h1></h1>
+</section>
+<section id="section-1" class="slide level1" data-background="img/vsp-simples-2.png" data-background-transition="none">
+<h1></h1>
+</section>
+<section id="section-2" class="slide level1" data-background="img/vsp-simples-3.png" data-background-transition="none">
+<h1></h1>
+</section>
+<section id="section-3" class="slide level1" data-background="img/vsp-simples-4.png" data-background-transition="none">
+<h1></h1>
+</section>
+<section id="section-4" class="slide level1" data-background="img/vsp-simples-5.png" data-background-transition="none">
+<h1></h1>
+</section>
+<section id="section-5" class="slide level1" data-background="img/vsp-simples-6.png" data-background-transition="none">
+<h1></h1>
+</section>
+<section id="section-6" class="slide level1" data-background="img/vsp-simples-7.png" data-background-transition="none">
+<h1></h1>
+</section>
+<section id="section-7" class="slide level1" data-background="img/vsp-simples-8.png" data-background-transition="none">
+<h1></h1>
+</section>
+<section id="section-8" class="slide level1" data-background="img/vsp-simples-9.png" data-background-transition="none">
+<h1></h1>
+</section>
+<section id="section-9" class="slide level1" data-background="img/vsp-simples-10.png" data-background-transition="none">
+<h1></h1>
+</section>
+<section class="slide level1">
+
+<p>Determinar V<sub>1</sub> e V<sub>2</sub></p>
+<p>a partir de t<sub>1</sub>, t<sub>2</sub>, t<sub>3</sub>, t<sub>4</sub></p>
+</section>
+<section class="slide level1">
+
+<p>Determinar <span style="color:#00db74">V<sub>1</sub> e V<sub>2</sub></span></p>
+<p>a partir de <span style="color:#e72323">t<sub>1</sub>, t<sub>2</sub>, t<sub>3</sub>, t<sub>4</sub></span></p>
+</section>
+<section class="slide level1">
+
+<h2 id="relação-funcional">Relação funcional</h2>
+</section>
+<section class="slide level1">
+
+<p>Tempo para percorrer <span class="math">\(d\)</span></p>
+<p><span class="math">\[
+\definecolor{param}{RGB}{0,219,116}
+\definecolor{dados}{RGB}{231,35,35}
+{\color{dados} t} = \dfrac{d}{\color{param} V}
+\]</span></p>
+</section>
+<section class="slide level1">
+
+<p>Para chegar ao 1º geofone (t<sub>1</sub>)?</p>
+</section>
+<section id="section-10" class="slide level1" data-background="img/vsp-simples-5.png" data-background-transition="none">
+<h1></h1>
+</section>
+<section class="slide level1">
+
+<p><span class="math">\[
+\definecolor{param}{RGB}{0,219,116}
+\definecolor{dados}{RGB}{231,35,35}
+{\color{dados} t_1} = \dfrac{h/2}{\color{param} V_1}
+\]</span></p>
+</section>
+<section class="slide level1">
+
+<p>t<sub>2</sub>, t<sub>3</sub> e t<sub>4</sub>?</p>
+</section>
+<section id="section-11" class="slide level1" data-background="img/vsp-simples-5.png" data-background-transition="none">
+<h1></h1>
+</section>
+<section class="slide level1">
+
+<div style="font-size: 40pt">
+<span class="math">\[
+\definecolor{param}{RGB}{0,219,116}
+\definecolor{dados}{RGB}{231,35,35}
+\begin{eqnarray}
+    {\color{dados} t_1} &amp; = &amp; \frac{h/2}{\color{param} V_1} \\
+    {\color{dados} t_2} &amp; = &amp; \frac{h}{\color{param} V_1} \\
+    {\color{dados} t_3} &amp; = &amp; \frac{h}{\color{param} V_1} + \frac{h/2}{\color{param} V_2} \\
+    {\color{dados} t_4} &amp; = &amp; \frac{h}{\color{param} V_1} + \frac{h}{\color{param} V_2} \\
+\end{eqnarray}
+\]</span>
+</div>
+</section>
+<section class="slide level1">
+
+<p>Frações são chatas.</p>
+<div style="margin-top: 80px">
+
+</div>
+<p>Vagarosidade: <span class="math">\(S = \frac{1}{V}\)</span></p>
+</section>
+<section class="slide level1">
+
+<div style="font-size: 60pt">
+<span class="math">\[
+\definecolor{param}{RGB}{0,219,116}
+\definecolor{dados}{RGB}{231,35,35}
+\begin{eqnarray}
+    {\color{dados} t_1} &amp; = &amp; (h/2){\color{param} S_1} \\
+    {\color{dados} t_2} &amp; = &amp; h{\color{param} S_1} \\
+    {\color{dados} t_3} &amp; = &amp; h{\color{param} S_1} + (h/2){\color{param} S_2} \\
+    {\color{dados} t_4} &amp; = &amp; h{\color{param} S_1} + h{\color{param} S_2} \\
+\end{eqnarray}
+\]</span>
+</div>
+</section>
+<section class="slide level1">
+
+<div style="font-size: 60pt">
+<span class="math">\[
+\definecolor{param}{RGB}{0,219,116}
+\definecolor{dados}{RGB}{231,35,35}
+\begin{eqnarray}
+    {\color{dados} t_1} &amp; = &amp; (h/2){\color{param} S_1} + 0 {\color{param} S_2}\\
+    {\color{dados} t_2} &amp; = &amp; h{\color{param} S_1} + 0 {\color{param} S_2} \\
+    {\color{dados} t_3} &amp; = &amp; h{\color{param} S_1} + (h/2){\color{param} S_2} \\
+    {\color{dados} t_4} &amp; = &amp; h{\color{param} S_1} + h{\color{param} S_2} \\
+\end{eqnarray}
+\]</span>
+</div>
+</section>
+<section class="slide level1">
+
+<div style="font-size: 45pt">
+<span class="math">\[
+\definecolor{param}{RGB}{0,219,116}
+\definecolor{dados}{RGB}{231,35,35}
+\begin{bmatrix}
+    {\color{dados} t_1} \\
+    {\color{dados} t_2} \\
+    {\color{dados} t_3} \\
+    {\color{dados} t_4} \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+    h/2   &amp; 0      \\
+    h     &amp; 0    \\
+    h     &amp; h/2  \\
+    h     &amp; h    \\
+\end{bmatrix}
+\begin{bmatrix}
+    {\color{param} S_1} \\
+    {\color{param} S_2} \\
+\end{bmatrix}
+\]</span>
+</div>
+</section>
+<section class="slide level1">
+
+<div style="font-size: 45pt">
+<span class="math">\[
+\definecolor{param}{RGB}{0,219,116}
+\definecolor{dados}{RGB}{231,35,35}
+\underbrace{
+\begin{bmatrix}
+    {\color{dados} t_1} \\
+    {\color{dados} t_2} \\
+    {\color{dados} t_3} \\
+    {\color{dados} t_4} \\
+\end{bmatrix}
+}_{\color{dados} \text{dados}}
+=
+\underbrace{
+\begin{bmatrix}
+    h/2   &amp; 0      \\
+    h     &amp; 0    \\
+    h     &amp; h/2  \\
+    h     &amp; h    \\
+\end{bmatrix}
+}_{\text{rel. funcional}}
+\underbrace{
+\begin{bmatrix}
+    {\color{param} S_1} \\
+    {\color{param} S_2} \\
+\end{bmatrix}
+}_{\color{param} \text{parametros}}
+\]</span>
+</div>
+</section>
+<section class="slide level1">
+
+<div style="font-size: 45pt">
+<span class="math">\[
+\definecolor{param}{RGB}{0,219,116}
+\definecolor{dados}{RGB}{231,35,35}
+\underbrace{
+\begin{bmatrix}
+    {\color{dados} t_1} \\
+    {\color{dados} t_2} \\
+    {\color{dados} t_3} \\
+    {\color{dados} t_4} \\
+\end{bmatrix}
+}_{\color{dados} \bar{d}}
+=
+\underbrace{
+\begin{bmatrix}
+    h/2   &amp; 0      \\
+    h     &amp; 0    \\
+    h     &amp; h/2  \\
+    h     &amp; h    \\
+\end{bmatrix}
+}_{\bar{\bar{A}}}
+\underbrace{
+\begin{bmatrix}
+    {\color{param} S_1} \\
+    {\color{param} S_2} \\
+\end{bmatrix}
+}_{\color{param} \bar{p}}
+\]</span>
+</div>
+<!--_-->
+
+</section>
+<section id="forma-matricial" class="slide level1" data-background="#023b5c">
+<h1>Forma matricial</h1>
+</section>
+<section class="slide level1">
+
+<p><span class="math">\[
+{\color{dados} \bar{d}} =
+\bar{\bar{A}}
+{\color{param} \bar{p}}
+\]</span></p>
+<div style="margin-top:50px; font-size: 45pt">
+(genérico para problemas lineares)
+</div>
+</section>
+<section class="slide level1">
+
+<p><span class="math">\(\color{param} \bar{p}\)</span></p>
+<p>vetor de parâmetros</p>
+<p>(o modelo)</p>
+</section>
+<section class="slide level1">
+
+<p><span class="math">\(\bar{\bar{A}}\)</span></p>
+<p>matriz de sensibilidade</p>
+<p>(relação funcional)</p>
+</section>
+<section class="slide level1">
+
+<p><span class="math">\(\color{dados} \bar{d}\)</span></p>
+<p>vetor de dados</p>
+<p>preditos pelo modelo (<span class="math">\(\color{param} \bar{p}\)</span>)</p>
+</section>
+<section id="modelagem-direta" class="slide level1" data-background="#023b5c">
+<h1>Modelagem direta</h1>
+</section>
+<section class="slide level1">
+
+<p><span class="math">\(\color{dados} \bar{d}^o\)</span></p>
+<p>dados observados</p>
+<p>(fui no campo e medi)</p>
+</section>
+<section class="slide level1">
+
+<p>Modelo <span class="math">\(\color{param} \bar{p}\)</span> é bom se:</p>
+<div style="margin-bottom: 70px">
+
+</div>
+<p><span class="math">\({\color{dados} \bar{d}} \approx {\color{dados} \bar{d}^o}\)</span></p>
+</section>
+<section class="slide level1">
+
+<h2 id="modelagem-direta-1">Modelagem direta</h2>
+<div style="margin-bottom: 80px">
+
+</div>
+<p>Mudar <span class="math">\(\color{param} \bar{p}\)</span> (na mão)</p>
+<div style="margin-bottom: 80px">
+
+</div>
+<p>até que <span class="math">\({\color{dados} \bar{d}} \approx {\color{dados} \bar{d}^o}\)</span></p>
+</section>
+<section id="intervalo" class="slide level1" data-background="#023b5c">
+<h1>Intervalo</h1>
+<p>~15 min</p>
+<p>(e depois práticas)</p>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+  </body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title></title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="reveal.js/css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="custom.css"/>
+  <link rel="stylesheet" media="print" href="reveal.js/css/print/pdf.css" />
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="custom.css">
+    
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({ TeX: { extensions: ["color.js"] }});
+    </script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="tópicos-de-inversão-em-geofísica" class="slide level1" data-background="#023b5c">
+<h1>Tópicos de Inversão em Geofísica</h1>
+</section>
+<section class="slide level1">
+
+<h2 id="introdução" margin="0">Introdução</h2>
+<p>quem eu sou</p>
+<p>quem são vocês</p>
+<p>qual é nosso objetivo</p>
+</section>
+<section id="eu" class="slide level1" data-background="#023b5c">
+<h1>Eu</h1>
+</section>
+<section class="slide level1">
+
+<h2 id="leonardo-uieda">Leonardo Uieda</h2>
+<p>Professor de Geofísica na <a href="http://www.uerj.br/">UERJ</a></p>
+<figure>
+<img src="img/UERJ.png" />
+</figure>
+</section>
+<section class="slide level1">
+
+<p>Graduação em Geofísica</p>
+<p><a href="http://www.iag.usp.br/">IAG / USP</a></p>
+<div style="margin-top: 80px">
+
+</div>
+<p>Mestrado e Doutorado</p>
+<p><a href="http://on.br/">Observatório Nacional</a> <!--![](img/ON.png)--></p>
+</section>
+<section class="slide level1">
+
+<p>Grupo de Problemas Inversos em Geofísica</p>
+<p><a href="https://github.com/pinga-lab">github.com/pinga-lab</a></p>
+<figure>
+<img src="img/pinga.png" />
+</figure>
+</section>
+<section class="slide level1">
+
+<ul>
+<li>Métodos potenciais</li>
+<li>Modelagem e inversão</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<ul>
+<li>Software livre</li>
+</ul>
+<div style="margin-top: 80px">
+
+</div>
+<p><a href="http://www.fatiando.org"><img src="img/fatiando-logo.png" /></a></p>
+</section>
+<section class="slide level1">
+
+<h2 id="leouieda.com"><a href="http://leouieda.com">leouieda.com</a></h2>
+</section>
+<section id="vocês" class="slide level1" data-background="#023b5c">
+<h1>Vocês</h1>
+</section>
+<section class="slide level1">
+
+<h2 id="quem-são-vocês">Quem são vocês?</h2>
+<p>Curso?</p>
+<p>Programação? (Linguagem?)</p>
+<p>Inversão?</p>
+</section>
+<section id="curso" class="slide level1" data-background="#023b5c">
+<h1>Curso</h1>
+</section>
+<section class="slide level1">
+
+<h2 id="por-que-inversão">Por que inversão?</h2>
+</section>
+<section id="section" class="slide level1" data-background="img/inversao-e-geofisica-1.png" data-background-transition="none">
+<h1></h1>
+</section>
+<section id="section-1" class="slide level1" data-background="img/inversao-e-geofisica-2.png" data-background-transition="none">
+<h1></h1>
+</section>
+<section id="section-2" class="slide level1" data-background="img/inversao-e-geofisica-3.png" data-background-transition="none">
+<h1></h1>
+</section>
+<section id="section-3" class="slide level1" data-background="img/inversao-e-geofisica-4.png" data-background-transition="none">
+<h1></h1>
+</section>
+<section class="slide level1">
+
+<p><span style="color:#e72323">medições</span> na superfície</p>
+<p><i class="fa fa-arrow-down fa-3x"></i></p>
+<p><span style="color:#00db74">modelo</span> da Terra</p>
+<p class="fragment" style="font-size:100pt; text-decoration:underline;">
+Problema inverso
+</p>
+
+</section>
+<section class="slide level1">
+
+<h2 id="inversão-na-geofísica">Inversão na geofísica</h2>
+<p class="fragment" style="font-size:50pt">
+terremoto <i class="fa fa-arrow-right"></i> tomografia
+</p>
+
+<p class="fragment" style="font-size:50pt">
+mag. <i class="fa fa-arrow-right"></i> deconv. Euler
+</p>
+
+<p class="fragment" style="font-size:50pt">
+paleomag. <i class="fa fa-arrow-right"></i>magnetização
+</p>
+
+<p class="fragment" style="font-size:50pt">
+<i class="fa fa-bolt" style="color:#fff331"></i> no Res2Dinv
+</p>
+
+</section>
+<section class="slide level1">
+
+<h2 id="objetivo-desmitificar">Objetivo = Desmitificar</h2>
+</section>
+<section class="slide level1">
+
+<p>teóricas + práticas</p>
+<p>exemplos simples</p>
+<p>(um pouco de <a href="http://www.python.org/">Python</a>)</p>
+</section>
+<section class="slide level1">
+
+<h2 id="ferramentas">Ferramentas</h2>
+<ul>
+<li>Álgebra linear</li>
+<li>Cálculo numérico</li>
+<li>Programação</li>
+<li>Boa vontade</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="online">Online</h2>
+<p><span style="font-size: 50pt"> <a href="https://github.com/pinga-lab/inversao-unb-2014">github.com/pinga-lab/inversao-unb-2014</a> </span></p>
+<p>Apresentações, material das práticas, intruções, apostila</p>
+</section>
+<section class="slide level1">
+
+<h2 id="apostila">Apostila</h2>
+<p>Equações</p>
+<p>Tutorial de matrizes</p>
+<p>Aprofundar depois do curso</p>
+</section>
+<section class="slide level1">
+
+<h2 id="próximo-tópico">Próximo tópico:</h2>
+<p><a href="dados_e_parametros.html">Dados, parâmetros e problemas inversos</a></p>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+  </body>
+</html>

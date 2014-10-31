@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title></title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="reveal.js/css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="custom.css"/>
+  <link rel="stylesheet" media="print" href="reveal.js/css/print/pdf.css" />
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="custom.css">
+    
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({ TeX: { extensions: ["color.js"] }});
+    </script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="práticas" class="slide level1" data-background="#023b5c">
+<h1>Práticas</h1>
+</section>
+<section class="slide level1">
+
+<ol type="1">
+<li>Por que</li>
+<li>O que</li>
+<li>Como</li>
+</ol>
+</section>
+<section id="por-que" class="slide level1" data-background="#023b5c">
+<h1>Por que</h1>
+</section>
+<section class="slide level1">
+
+<h2 id="pegar-o-jeito">Pegar o jeito</h2>
+<p>não treinar um especialista</p>
+</section>
+<section class="slide level1">
+
+<p>Experimentar</p>
+<p>Mão na massa</p>
+<p>Quebrar o brinquedo novo</p>
+</section>
+<section class="slide level1">
+
+<p>Conhecer limitações</p>
+<p>Vantagens e desvantagens</p>
+<p>Transfere para problemas complexos</p>
+</section>
+<section id="o-que" class="slide level1" data-background="#023b5c">
+<h1>O que</h1>
+</section>
+<section class="slide level1">
+
+<p>Exemplo simples (VSP)</p>
+<p>Sofre de problemas reais</p>
+</section>
+<section class="slide level1">
+
+<p>Formular as equações</p>
+<p>Calcular as matrizes</p>
+<p>Quebrar nosso brinquedo</p>
+</section>
+<section class="slide level1">
+
+<p>Exemplo mais real</p>
+<p>(Deconvolução de Euler)</p>
+<p>Ainda é simples</p>
+</section>
+<section id="como" class="slide level1" data-background="#023b5c">
+<h1>Como</h1>
+</section>
+<section id="python" class="slide level1">
+<h1>Python</h1>
+</section>
+<section class="slide level1">
+
+<h2 id="ipython-notebook">IPython notebook</h2>
+<p>documentos interativos</p>
+</section>
+<section id="section" class="slide level1" data-background="img/screen-shot-ipynb.png" data-background-transition="none">
+<h1></h1>
+</section>
+<section class="slide level1">
+
+<h2 id="python-científico">Python científico</h2>
+<p>numpy</p>
+<p>matplotlib</p>
+<p>IPython</p>
+</section>
+<section class="slide level1">
+
+<h2 id="biblioteca-geofísica">Biblioteca geofísica</h2>
+<div style="margin-bottom: 80px">
+
+</div>
+<figure>
+<img src="img/fatiando-logo.png" />
+</figure>
+</section>
+<section class="slide level1">
+
+<h2 id="no-site">No site</h2>
+<p>Instruções para instalar</p>
+<p>Baixar notebooks, etc</p>
+</section>
+<section class="slide level1">
+
+<h2 id="rodar-os-notebooks">Rodar os notebooks:</h2>
+<ol type="1">
+<li>Abrir cmd.exe</li>
+<li>Digitar: ipython notebook</li>
+<li>Achar pasta &quot;notebooks&quot;</li>
+</ol>
+</section>
+<section class="slide level1">
+
+<h2 id="prática">Prática</h2>
+<p>vsp-duas-camadas-direto.ipynb</p>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+  </body>
+</html>

@@ -30,24 +30,7 @@ A apostila contém a derivação das principais equações envolvidas na invers�
 Os apêndices explicam as operações básicas com matrizes,
 como derivadas e expansão em série de Taylor.
 
-**Slides**:
-[pinga-lab.github.io/inversao-unb-2014](http://pinga-lab.github.io/inversao-unb-2014)
-
-As apresentações foram feitas com
-[pandoc](http://johnmacfarlane.net/pandoc/) e
-[reveal.js](https://github.com/hakimel/reveal.js/)
-e podem ser vistas em diretamente no navgeador.
-Use as setas do teclado para passar os slides.
-
-**Demais informações**:
-As atividades práticas podem ser realizadas no **próprio laptop**,
-caso o aluno deseje.
-Nesses casos, favor instalar os programas necessários **antes** do curso
-(instruções abaixo).
-Eventuais problemas com a instalação poderão ser resolvidos nos intervalos.
-
-## Instalação
-
+**Práticas**:
 As atividades práticas foram desenvolvidas na linguagem
 [Python](http://www.python.org/).
 Todas utilizam as bibliotecas [numpy](http://www.numpy.org/) (parte numérica),
@@ -57,6 +40,28 @@ Cada prática está em um [IPython notebook](http://ipython.org/notebook.html),
 um documento interativo que mistura texto, equações, código, gráficos, etc.
 Algumas das práticas utilizam a biblioteca [Fatiando a
 Terra](http://fatiando.org/) de modelagem geofísica.
+
+**Preparação para práticas:**:
+As atividades práticas podem ser realizadas no **próprio laptop**,
+caso o aluno deseje.
+Nesses casos, favor instalar os programas necessários **antes** do curso
+(instruções abaixo).
+Eventuais problemas com a instalação poderão ser resolvidos nos intervalos.
+
+**Slides**:
+As apresentações foram feitas com
+[pandoc](http://johnmacfarlane.net/pandoc/) e
+[reveal.js](https://github.com/hakimel/reveal.js/)
+e podem ser vistas em diretamente no navegador.
+Use as setas do teclado para passar os slides.
+Links para cada apresentação abaixo:
+
+1. [Introdução ao curso](http://pinga-lab.github.io/inversao-unb-2014/introducao.html)
+2. [Dados, parâmetros e problemas inversos](http://pinga-lab.github.io/inversao-unb-2014/dados_e_parametros.html)
+3. [Sobre as atividades práticas](http://pinga-lab.github.io/inversao-unb-2014/introducao_praticas.html)
+
+
+## Instalação
 
 Se tiver algum problema (mensagem de erro, dúvidas, etc), mande um e-mail para
 o professor. Não se esqueça de incluir:

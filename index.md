@@ -2,8 +2,9 @@
 
 <div class="reveal" style="font-size: 24pt; line-height: 1em">
 
-Informações, ementa, práticas, etc:
+[Ementa e plano de aula](https://github.com/pinga-lab/inversao-unb-2014/blob/master/ementa.md)
 
+Mais informações:
 [github.com/pinga-lab/inversao-unb-2014](https://github.com/pinga-lab/inversao-unb-2014)
 
 

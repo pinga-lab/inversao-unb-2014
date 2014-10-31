@@ -25,6 +25,9 @@ Almoço (~1h)
 * Vetor de resíduos e a função do ajuste
 * Problemas lineares e não lineares
 * O estimador de mínimos quadrados
+* Exemplos:
+    * Ajuste de reta
+    * VSP com 2 camadas
 
 Intervalo (~15min)
 

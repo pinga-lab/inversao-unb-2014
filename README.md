@@ -48,6 +48,10 @@ Nesses casos, favor instalar os programas necessários **antes** do curso
 (instruções abaixo).
 Eventuais problemas com a instalação poderão ser resolvidos nos intervalos.
 
+**Baixar todo material do curso**:
+Use [esse link](https://github.com/pinga-lab/inversao-unb-2014/archive/master.zip)
+para baixar tudo em um arquivo zip.
+
 **Slides**:
 As apresentações foram feitas com
 [pandoc](http://johnmacfarlane.net/pandoc/) e

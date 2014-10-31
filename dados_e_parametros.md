@@ -23,8 +23,8 @@ Estabelecer uma relação funcional:
 
 <div style="margin-top:50px"></div>
 
-f(<span style="color:#00db74">Parâmetros</span>) =
-<span style="color:#e72323">Dados</span>
+f(<span style="color:#00db74">parâmetros</span>) =
+<span style="color:#e72323">dados</span>
 
 ---
 
@@ -205,3 +205,119 @@ $$
 }_{\color{param} \text{parametros}}
 $$
 </div>
+
+---
+
+<div style="font-size: 45pt">
+$$
+\definecolor{param}{RGB}{0,219,116}
+\definecolor{dados}{RGB}{231,35,35}
+\underbrace{
+\begin{bmatrix}
+    {\color{dados} t_1} \\
+    {\color{dados} t_2} \\
+    {\color{dados} t_3} \\
+    {\color{dados} t_4} \\
+\end{bmatrix}
+}_{\color{dados} \bar{d}}
+=
+\underbrace{
+\begin{bmatrix}
+    h/2   & 0      \\
+    h     & 0    \\
+    h     & h/2  \\
+    h     & h    \\
+\end{bmatrix}
+}_{\bar{\bar{A}}}
+\underbrace{
+\begin{bmatrix}
+    {\color{param} S_1} \\
+    {\color{param} S_2} \\
+\end{bmatrix}
+}_{\color{param} \bar{p}}
+$$
+</div>
+
+<!--_-->
+
+---
+
+# Forma matricial {data-background="#023b5c"}
+
+---
+
+$$
+{\color{dados} \bar{d}} =
+\bar{\bar{A}}
+{\color{param} \bar{p}}
+$$
+
+<div style="margin-top:50px; font-size: 45pt">
+(genérico para problemas lineares)
+</div>
+
+---
+
+$\color{param} \bar{p}$
+
+vetor de parâmetros
+
+(o modelo)
+
+---
+
+$\bar{\bar{A}}$
+
+matriz de sensibilidade
+
+(relação funcional)
+
+---
+
+$\color{dados} \bar{d}$
+
+vetor de dados
+
+preditos pelo modelo
+($\color{param} \bar{p}$)
+
+---
+
+# Modelagem direta {data-background="#023b5c"}
+
+---
+
+$\color{dados} \bar{d}^o$
+
+dados observados
+
+(fui no campo e medi)
+
+---
+
+Modelo $\color{param} \bar{p}$ é bom se:
+
+<div style="margin-bottom: 70px"></div>
+
+${\color{dados} \bar{d}} \approx {\color{dados} \bar{d}^o}$
+
+---
+
+## Modelagem direta
+
+<div style="margin-bottom: 80px"></div>
+
+Mudar $\color{param} \bar{p}$ (na mão)
+
+<div style="margin-bottom: 80px"></div>
+
+até que
+${\color{dados} \bar{d}} \approx {\color{dados} \bar{d}^o}$
+
+---
+
+# Intervalo {data-background="#023b5c"}
+
+~15 min
+
+(e depois práticas)

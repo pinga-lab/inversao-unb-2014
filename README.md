@@ -58,6 +58,12 @@ um documento interativo que mistura texto, equações, código, gráficos, etc.
 Algumas das práticas utilizam a biblioteca [Fatiando a
 Terra](http://fatiando.org/) de modelagem geofísica.
 
+Se tiver algum problema (mensagem de erro, dúvidas, etc), mande um e-mail para
+o professor. Não se esqueça de incluir:
+
+* Exatamente o que você fez e em qual ordem
+* Qual foi a mensagem de erro que apareceu (copie e cole, screenshot, etc)
+
 ### Windows
 
 É muito importante executar esses passos na ordem abaixo:
@@ -80,12 +86,6 @@ Terra](http://fatiando.org/) de modelagem geofísica.
    a Terra:
 
         pip install fatiando
-
-Se tiver algum problema (mensagem de erro, dúvidas, etc), mande um e-mail para
-o professor. Não se esqueça de incluir:
-
-* Exatamente o que você fez e em qual ordem
-* Qual foi a mensagem de erro que apareceu (copie e cole, screenshot, etc)
 
 ### Linux
 

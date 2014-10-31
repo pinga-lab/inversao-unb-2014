@@ -8,7 +8,6 @@
     * Matriz de sensibilidade e dados preditos
     * Modelagem direta
     * Exemplos:
-       * Regressão linear
        * Vertical seismic profiling (VSP)
 
 Intervalo (~15min)
@@ -18,7 +17,6 @@ Intervalo (~15min)
   [Fatiando a Terra](http://www.fatiando.org)
 * Práticas de modelagem direta:
     * VSP com 2 camadas
-    * VSP com várias camadas
 
 Almoço (~1h)
 

@@ -12,9 +12,7 @@
 
 Intervalo (~15min)
 
-* Sobre as práticas,
-  [IPython notebooks](http://ipython.org/notebook.html) e
-  [Fatiando a Terra](http://www.fatiando.org)
+* [Sobre as práticas](http://pinga-lab.github.io/inversao-unb-2014/introducao_praticas.html)
 * Práticas de modelagem direta:
     * VSP com 2 camadas
 
